@@ -3,14 +3,6 @@
 
 import glob
 import os
-
-try:
-    import torch
-except:
-    import subprocess
-    import sys
-    subprocess.call([sys.executable, "-m", "pip", "install", "torch=1.0.0"])
-
 from setuptools import find_packages
 from setuptools import setup
 from torch.utils.cpp_extension import CUDA_HOME
