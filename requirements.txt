@@ -1,6 +1,6 @@
 ninja
 yacs
-cython==0.28.5
+cython>=0.28.5
 matplotlib
 tqdm
 torch>=1.0.0
